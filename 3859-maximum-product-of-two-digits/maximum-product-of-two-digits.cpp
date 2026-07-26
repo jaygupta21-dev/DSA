@@ -7,12 +7,9 @@ public:
         int maxnum2=1;
         while(n>0){
             int rem=n%10;
-             maxnum=max(maxnum,rem);
-            product=maxnum2*rem;
+            product=maxnum*rem;
             maxpro=max(maxpro,product);
-             if(maxnum!=maxnum2){
-                maxnum2=maxnum;
-             }
+                     maxnum=max(maxnum,rem);
              n=n/10;
         }
         return maxpro;
