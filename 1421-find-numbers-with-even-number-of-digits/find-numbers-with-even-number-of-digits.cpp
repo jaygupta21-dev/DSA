@@ -7,7 +7,6 @@ public:
             int count=0;
             int n=arr[i];
             while(n>0){
-                int r=n%10;
                 n=n/10;
                 count++;
             }
