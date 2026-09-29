@@ -25,7 +25,6 @@ int ans=0;
         
 
     int diameterOfBinaryTree(TreeNode* root) {
-        ans=0;
         diameter(root);
         return ans;
 
